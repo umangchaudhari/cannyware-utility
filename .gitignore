@@ -1,0 +1,85 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble/
+.LSOverride
+.Spotlight-V100/
+.Trashes/
+
+# Xcode builds, archives, exported apps, and debug symbols
+build/
+DerivedData/
+*.xcarchive/
+*.ipa
+*.app/
+*.dSYM/
+*.dSYM.zip
+
+# Per-user Xcode state. Keep the project, shared schemes, and workspaces.
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager build products. Keep Package.resolved files.
+.build/
+
+# Python environments, caches, packaging, and coverage
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+*.egg-info/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+
+# Test recordings, reports, and local logs
+test-output/
+*.xcresult/
+*.log
+
+# Signing credentials and App Store Connect private keys
+*.p12
+*.pfx
+*.p8
+*.key
+*.pem
+*.cer
+*.cert
+*.mobileprovision
+*.provisionprofile
+
+# Local secrets/configuration. Examples containing placeholders can be shared.
+.env
+.env.*
+!.env.example
+!.env.*.example
+!.env.sample
+!.env.template
+*.local.xcconfig
+*.private.xcconfig
+/secrets/
+/credentials/
+/.aws/
+
+# Personal inputs and generated exports belong here, not among test fixtures.
+/local-data/
+/private-data/
+/exports/
+/tmp/
+
+# Local editor/assistant state
+*.swp
+*.swo
+*~
+*.code-workspace
+/.codex/
+/.idea/
